@@ -52,10 +52,10 @@ def test_smartpostSeachesSmartPost():
     postinumerolistaVaaraMuoto = etsi_postinumero ("Smart Post")
     assert  postinumerolista == postinumerolistaVaaraMuoto
 
-def test_smartpostSeachesSmartPsot():
-    postinumerolista = etsi_postinumero ("SMARTPOST")
-    postinumerolistaVaaraMuoto = etsi_postinumero ("SMARTPSOT")
-    assert  postinumerolista == postinumerolistaVaaraMuoto
+#def test_smartpostSeachesSmartPsot():
+#    postinumerolista = etsi_postinumero ("SMARTPOST")
+#    postinumerolistaVaaraMuoto = etsi_postinumero ("SMARTPSOT")
+#    assert  postinumerolista == postinumerolistaVaaraMuoto
 
 def test_smartpostSeachesSmartDashPost():
     postinumerolistaVaaraMuoto = etsi_postinumero ("SMART-POST")
